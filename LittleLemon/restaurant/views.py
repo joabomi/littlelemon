@@ -9,7 +9,6 @@ from .serializers import MenuSerializer, BookingSerializer
 def index(request):
     return render(request, 'index.html', {})
 
-@permission_classes([IsAuthenticated])
 class MenuItemsView(generics.ListCreateAPIView):
     permission_classes = [IsAuthenticated]
     queryset = Menu.objects.all()
