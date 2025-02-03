@@ -7,7 +7,7 @@ class Booking(models.Model):
     bookingDate = models.DateTimeField()
     
 class Menu(models.Model):
-    tittle = models.CharField(max_length=255)
+    title = models.CharField(max_length=255)
     price = models.DecimalField(max_digits=10, decimal_places=2)
     inventory = models.IntegerField()
 
