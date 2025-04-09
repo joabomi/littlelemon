@@ -1,3 +1,5 @@
+Final Project developed during Meta Back-End Developer Certificate specialization.
+
 used endpoints:
 
 /admin/
